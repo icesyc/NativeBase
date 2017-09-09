@@ -40,12 +40,12 @@ checkboxSize:20,
 checkboxTickColor:"#fff",
 
 
-segmentBackgroundColor:platform==="ios"?"#F8F8F8":"#3F51B5",
-segmentActiveBackgroundColor:platform==="ios"?"#007aff":"#fff",
-segmentTextColor:platform==="ios"?"#007aff":"#fff",
-segmentActiveTextColor:platform==="ios"?"#fff":"#3F51B5",
-segmentBorderColor:platform==="ios"?"#007aff":"#fff",
-segmentBorderColorMain:platform==="ios"?"#a7a6ab":"#3F51B5",
+segmentBackgroundColor: "#F8F8F8",
+segmentActiveBackgroundColor: "#007aff",
+segmentTextColor: "#007aff",
+segmentActiveTextColor: "#fff",
+segmentBorderColor: "#007aff",
+segmentBorderColorMain: "#a7a6ab",
 
 
 get defaultTextColor(){
@@ -108,7 +108,7 @@ return this.iconFontSize*0.6;
 cardDefaultBg:"#fff",
 
 
-brandPrimary:platform==="ios"?"#007aff":"#3F51B5",
+brandPrimary:"#007aff",
 brandInfo:"#62B1F6",
 brandSuccess:"#5cb85c",
 brandDanger:"#d9534f",
